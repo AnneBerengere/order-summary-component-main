@@ -1,0 +1,110 @@
+body {
+    background-color: hsl(225, 100%, 94%);;
+    background-image: url("images/pattern-background-desktop.svg");
+    min-height: 100VH;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(223, 47%, 23%);
+
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 450px;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2.6em;
+}
+
+.content h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.content p{
+    color: hsl(224, 23%, 55%);
+    margin: 1.2em;
+    font-weight: 500;
+    line-height: 1.6em;
+}
+
+
+.planCard {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5em 1em;
+    border-radius: 10px;
+    margin-bottom: 2em;;
+}
+
+.planCard a {
+    text-decoration: underline;
+    color:hsl(245, 75%, 52%);
+}
+
+.actualPlan {
+    width: 80%;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.actualPlan h2 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.actualPlan p {
+    font-size: 14px;
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    background-color: transparent;
+    border:  none;
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+    padding: 1em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.paymentButton {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    color:hsl(225, 100%, 94%);
+    box-shadow: 1em 1em 1em hsl(225, 100%, 94%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* Design mobile
+@media only screen and (max-width: 1440px) {
+    
+} */
