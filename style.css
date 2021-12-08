@@ -11,7 +11,6 @@ body {
     font-size: 16px;
     font-weight: 500;
     color: hsl(223, 47%, 23%);
-
 }
 
 .container {
@@ -27,7 +26,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 2.6em;
+    padding: 2.6em 3em;
+    padding-bottom: 2.2em;
 }
 
 .content h1 {
@@ -49,20 +49,28 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 1.5em 1em;
+    padding: 1.2em 1.5em 1.7em 1.5em;
     border-radius: 10px;
     margin-bottom: 2em;;
 }
 
 .planCard a {
+    cursor: pointer;
     text-decoration: underline;
     color:hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.planCard a:hover {
+    color: #746CF0;
+    text-decoration: none;
 }
 
 .actualPlan {
     width: 80%;
     text-align: left;
-    padding-left: 1em;
+    padding: 0.4em 0 0 1.3em;
 }
 
 .actualPlan h2 {
@@ -72,19 +80,25 @@ body {
 }
 
 .actualPlan p {
-    font-size: 14px;
-    margin: 0;
+    font-size: 16px;
+    margin: 0.6em 0 0 0;
+    line-height: 1em;
 }
 
 button {
+    font-size: 15px;
     width: 100%;
     background-color: transparent;
     border:  none;
     text-decoration: none;
     color:hsl(224, 23%, 55%);
-    padding: 1em;
-    font-weight: 700;
+    padding: 1.1em;
+    font-weight: 900;
     cursor: pointer;
+}
+
+button:hover {
+    color:hsl(223, 47%, 23%);
 }
 
 .paymentButton {
@@ -92,7 +106,13 @@ button {
     border: none;
     border-radius: 10px;
     color:hsl(225, 100%, 94%);
-    box-shadow: 1em 1em 1em hsl(225, 100%, 94%);
+    box-shadow: 0 20px 10px  hsl(225, 100%, 94%);
+    margin-bottom: 1em;
+}
+
+.paymentButton:hover {
+    background-color: #746CF0;
+    color: white;
 }
 
 .attribution { 
